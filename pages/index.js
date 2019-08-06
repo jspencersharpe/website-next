@@ -1,9 +1,24 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react"
+import Nav from "../components/Nav"
+// import Heading from "../Heading"
+// import spencer from "./spencer.jpg"
+// import "./home.css"
 
-export default () => (
-  <ul>
-    <li><Link href='/b' as='/a'><a>a</a></Link></li>
-    <li><Link href='/a' as='/b'><a>b</a></Link></li>
-  </ul>
-)
+const Home = () => {
+  return (
+    <div className="home">
+      <section>
+        <Nav />
+        <div className="img-container">
+          {/* <img src={spencer} className="spencer" alt="spencer" /> */}
+        </div>
+        <div className="bio">
+          {/* <Heading value="Spencer Sharpe" /> */}
+          <h3>Husband, sports fan, software developer</h3>
+        </div>
+      </section>
+    </div>
+  )
+}
+
+export default Home
