@@ -45,12 +45,8 @@ const Code = () => (
       </p>
       <p>
         This website was made with{" "}
-        <a
-          href="https://www.npmjs.com/package/create-react-app"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          create-react-app
+        <a href="https://nextjs.org/" rel="noopener noreferrer" target="_blank">
+          Next.js
         </a>
         .
       </p>

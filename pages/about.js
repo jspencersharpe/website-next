@@ -11,9 +11,8 @@ const About = () => (
       </p>
       <p>
         Born and raised in Tulsa, OK, I studied Music Composition at Oral
-        Roberts University.My wife, Amber, is the greatest woman of all time.We
-        moved to Nashville in the Fall of 2013 and discover more fun things
-        every day.{" "}
+        Roberts University. My wife, Amber, is just the best. We moved to
+        Nashville in the Fall of 2013 and discover more fun things every day.{" "}
       </p>
       <p>
         I have been a fan of the{" "}

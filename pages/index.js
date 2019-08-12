@@ -16,6 +16,7 @@ export default () => (
       .home {
         display: grid;
         align-items: center;
+        grid-gap: 10px;
       }
 
       .home .img-container {
@@ -24,7 +25,7 @@ export default () => (
 
       .home .img-container img {
         width: 100%;
-        max-width: 200px;
+        max-width: 375px;
       }
 
       .home .bio {
@@ -33,13 +34,14 @@ export default () => (
 
       @media only screen and (min-width: 700px) {
         .home {
-          grid-template-columns: 1fr 2fr;
+          grid-template-columns: 250px 2fr;
         }
       }
 
       @media only screen and (min-width: 1200px) {
         .home {
-          grid-template-columns: 1fr 3fr;
+          grid-template-columns: 375px 3fr;
+          grid-gap: 40px;
         }
       }
     `}</style>
