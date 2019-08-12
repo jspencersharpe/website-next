@@ -1,5 +1,4 @@
-import React, { Component } from "react"
-import ImageLink from "./ImageLink"
+import React from "react"
 
 const Technologies = () => {
   const technologies = [
@@ -56,18 +55,6 @@ const Technologies = () => {
       image_url:
         "https://camo.githubusercontent.com/fc61dcbdb7a6e49d3adecc12194b24ab20dfa25b/68747470733a2f2f692e636c6f756475702e636f6d2f7a6659366c4c376546612d3330303078333030302e706e67",
       url: "https://expressjs.com/"
-    },
-    {
-      name: "Gulp",
-      image_url:
-        "https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png",
-      url: "http://gulpjs.com/"
-    },
-    {
-      name: "jQuery",
-      image_url:
-        "https://camo.githubusercontent.com/02ed3f6695f288aedec24c2a329c667281efef5f/687474703a2f2f707265636973696f6e2d736f6674776172652e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031342f30342f6a5175726572792e676966",
-      url: "https://jquery.com/"
     }
   ]
 
@@ -76,11 +63,23 @@ const Technologies = () => {
       <ul>
         {technologies.map((item, index) => (
           <li key={index}>
-            <ImageLink {...item} />
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              className="img-link"
+              href={item.url}
+              alt={item.name}
+            >
+              <img
+                src={item.image_url}
+                alt={item.name}
+                width="75"
+                height="75"
+              />
+            </a>
           </li>
         ))}
       </ul>
-      {/* <Styles /> */}
       <style jsx="true">{`
         .technologies > ul {
           display: grid;
@@ -108,9 +107,14 @@ const Technologies = () => {
           justify-content: center;
         }
 
-        .technologies > ul > li > a img {
+        .img-link {
           max-width: 75px;
-          max-height: 75px;
+        }
+
+        .img-link img {
+          object-fit: cover;
+          width: 100%;
+          height: auto;
         }
 
         @media only screen and (min-width: 1200px) {
