@@ -86,17 +86,12 @@ const Technologies = () => {
           grid-template-columns: 1fr 1fr;
           grid-gap: 10px;
           padding-left: 0;
+          padding-top: 30px;
         }
 
-        @media only screen and (min-width: 700px) {
+        @media only screen and (min-width: 768px) {
           .technologies > ul {
-            grid-template-columns: 1fr 1fr 1fr;
-          }
-        }
-
-        @media only screen and (min-width: 1200px) {
-          .technologies > ul {
-            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
           }
         }
 
@@ -118,9 +113,8 @@ const Technologies = () => {
         }
 
         @media only screen and (min-width: 1200px) {
-          .technologies > ul > li > a img {
+          .img-link {
             max-width: 100px;
-            max-height: 100px;
           }
         }
       `}</style>
