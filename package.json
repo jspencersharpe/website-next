@@ -1,19 +1,19 @@
 {
-    "name": "spencer-sharpe-website-next",
-    "version": "3.0.0",
-    "description": "Spencer Sharpe website",
-    "scripts": {
-        "dev": "node server.js -p $PORT",
-        "build": "next build",
-        "start": "NODE_ENV=production node server.js -p $PORT"
-    },
-    "dependencies": {
-        "express": "^4.17.1",
-        "next": "^9.0.3",
-        "react": "^16.8.6",
-        "react-dom": "^16.8.6"
-    },
-    "engines": {
-        "node": "10.x"
-    }
+  "name": "spencer-sharpe-website-next",
+  "version": "3.0.0",
+  "description": "Spencer Sharpe website",
+  "scripts": {
+    "dev": "node server.js -p $PORT",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js -p $PORT"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "next": "^9.1.5",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "engines": {
+    "node": "10.x"
+  }
 }
