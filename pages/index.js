@@ -1,7 +1,7 @@
-import Head from "next/head"
-import { technologies } from "../utils"
-import Layout from "../components/Layout"
-import Heading from "../components/Heading"
+import Head from "next/head";
+import { technologies } from "../utils";
+import Layout from "../components/Layout";
+import Heading from "../components/Heading";
 
 const data = {
   title: "Spencer Sharpe",
@@ -10,7 +10,7 @@ const data = {
   bio:
     "Born and raised in Tulsa, OK, I studied Music Composition at Oral Roberts University. My wife, Amber, is just the best. We moved to Nashville in the Fall of 2013 and discover more fun things every day.",
   keywords: technologies.map(t => t.name)
-}
+};
 
 export default () => (
   <>
@@ -22,11 +22,27 @@ export default () => (
     <Layout>
       <section className="home">
         <div className="img-container">
-          <img src="/static/spencer.jpg" className="spencer" alt="spencer" />
+          <img
+            src="/static/spencer.jpg"
+            className="spencer"
+            alt="spencer"
+            height={345}
+            width={345}
+          />
         </div>
         <div className="bio">
           <Heading value="Spencer Sharpe" />
-          <h3>Husband, sports fan, software developer</h3>
+          <h3>
+            Software Engineer at{" "}
+            <a
+              href="https://www.hellotend.com/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Tend
+            </a>
+            . Musician. NBA fan.
+          </h3>
         </div>
       </section>
       <style jsx="true">{`
@@ -47,6 +63,7 @@ export default () => (
 
         .home .bio {
           text-align: left;
+          display: block;
         }
 
         @media only screen and (min-width: 700px) {
@@ -64,4 +81,4 @@ export default () => (
       `}</style>
     </Layout>
   </>
-)
+);
