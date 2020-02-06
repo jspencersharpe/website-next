@@ -1,4 +1,4 @@
-import Link from "next/link"
+import Link from "next/link";
 
 const Nav = () => (
   <div className="navbar">
@@ -28,8 +28,8 @@ const Nav = () => (
     <style jsx global>{`
       .navbar {
         padding: 0.5rem 0;
-        background-color: #f7f7f7;
         margin-top: 2rem;
+        background-color: #f7f7f7;
       }
 
       .navbar > ul {
@@ -55,6 +55,6 @@ const Nav = () => (
       }
     `}</style>
   </div>
-)
+);
 
-export default Nav
+export default Nav;

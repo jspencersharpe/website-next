@@ -26,13 +26,19 @@ const Layout = ({ children }) => (
         font-family: sans-serif;
       }
 
+      .layout {
+        min-height: 100vh;
+      }
+
       .app {
         min-height: 100%;
         display: grid;
         grid-template-rows: 300px auto 50px;
       }
+
       .content {
         padding: 30px;
+        min-height: calc(100vh - 375px);
       }
 
       @media only screen and (min-width: 900px) {
@@ -55,11 +61,13 @@ const Layout = ({ children }) => (
 
       .app-logo {
         max-width: 230px;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
       }
 
       .app-header {
         text-align: center;
-        padding-top: 2rem;
+        min-height: 320px;
       }
     `}</style>
   </div>

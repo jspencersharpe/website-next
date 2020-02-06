@@ -59,6 +59,7 @@ export default () => (
         .home .img-container img {
           width: 100%;
           max-width: 375px;
+          object-fit: contain;
         }
 
         .home .bio {
