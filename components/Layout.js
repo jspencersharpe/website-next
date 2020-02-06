@@ -1,9 +1,15 @@
-import Nav from "./Nav"
+import Nav from "./Nav";
 
 const Layout = ({ children }) => (
   <div className="layout">
     <header className="app-header">
-      <img src="/static/logo.png" className="app-logo" alt="logo" />
+      <img
+        src="/static/logo.png"
+        className="app-logo"
+        alt="logo"
+        height={200}
+        width={230}
+      />
       <Nav />
     </header>
     <section className="content">{children}</section>
@@ -53,9 +59,10 @@ const Layout = ({ children }) => (
 
       .app-header {
         text-align: center;
+        padding-top: 2rem;
       }
     `}</style>
   </div>
-)
+);
 
-export default Layout
+export default Layout;
