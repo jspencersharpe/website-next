@@ -8,7 +8,7 @@
     "start": "NODE_ENV=production node server.js -p $PORT"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "next": "^9.4.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
