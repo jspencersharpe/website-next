@@ -1,5 +1,5 @@
-import Layout from "../components/Layout"
-import Heading from "../components/Heading"
+import Layout from '../components/Layout'
+import Heading from '../components/Heading'
 
 const About = () => (
   <Layout>
@@ -7,24 +7,23 @@ const About = () => (
       <Heading value="about" />
       <p>
         I'm a Software Engineer, and a graduate of Nashville Software School. I
-        play the bass and sleep in East Nashville, TN.
+        play the bass and live in East Nashville, TN.
       </p>
       <p>
         Born and raised in Tulsa, OK, I studied Music Composition at Oral
         Roberts University. My wife, Amber, is just the best. We moved to
-        Nashville in the Fall of 2013 and discover more fun things every day.{" "}
+        Nashville in the Fall of 2013 and discover more fun things every day.{' '}
       </p>
       <p>
-        I have been a fan of the{" "}
+        Outside of work, you'll find me riding my{' '}
         <a
-          href="http://www.nba.com/pacers/"
+          href="https://www.bikeradar.com/advice/buyers-guides/what-is-an-electric-bike/"
           rel="noopener noreferrer"
           target="_blank"
         >
-          {" "}
-          Indiana Pacers
-        </a>{" "}
-        my whole life. We are going to win a title. You just wait.
+          E-bike
+        </a>{' '}
+        or watching NBA basketball.
       </p>
     </div>
   </Layout>
