@@ -7,9 +7,8 @@ const data = {
   title: "Spencer Sharpe",
   description:
     "I'm a Software Engineer, and a graduate of Nashville Software School. I play the bass and sleep in East Nashville, TN.",
-  bio:
-    "Born and raised in Tulsa, OK, I studied Music Composition at Oral Roberts University. My wife, Amber, is just the best. We moved to Nashville in the Fall of 2013 and discover more fun things every day.",
-  keywords: technologies.map(t => t.name)
+  bio: "Born and raised in Tulsa, OK, I studied Music Composition at Oral Roberts University. My wife, Amber, is just the best. We moved to Nashville in the Fall of 2013 and discover more fun things every day.",
+  keywords: technologies.map((t) => t.name),
 };
 
 export default () => (
@@ -41,7 +40,7 @@ export default () => (
             >
               Tend
             </a>
-            . Musician. NBA fan.
+            . Musician. Sports fan. Multi-modal transit advocate.
           </h3>
         </div>
       </section>
