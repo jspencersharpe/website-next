@@ -22,25 +22,15 @@ export default () => (
       <section className="home">
         <div className="img-container">
           <img
-            src="/static/spencer.jpg"
+            src="/static/spencer2.jpg"
             className="spencer"
             alt="spencer"
-            height={345}
-            width={345}
           />
         </div>
         <div className="bio">
           <Heading value="Spencer Sharpe" />
           <h3>
-            Software Engineer at{" "}
-            <a
-              href="https://www.hellotend.com/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Tend
-            </a>
-            . Musician. Sports fan. Multi-modal transit advocate.
+            Product-oriented Software Engineer. <br /> Musician. Sports fan. Multi-modal transit advocate.
           </h3>
         </div>
       </section>
