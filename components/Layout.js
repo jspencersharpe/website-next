@@ -3,13 +3,7 @@ import Nav from "./Nav";
 const Layout = ({ children }) => (
   <div className="layout">
     <header className="app-header">
-      <img
-        src="/static/logo.png"
-        className="app-logo"
-        alt="logo"
-        height={200}
-        width={230}
-      />
+      <img src="/static/logo.png" className="app-logo" alt="logo" width={230} />
       <Nav />
     </header>
     <section className="content">{children}</section>
@@ -60,9 +54,9 @@ const Layout = ({ children }) => (
       }
 
       .app-logo {
-        max-width: 230px;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
+        max-width: 200px;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
       }
 
       .app-header {

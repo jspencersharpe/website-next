@@ -1,22 +1,54 @@
 import Layout from "../components/Layout";
-import Heading from "../components/Heading";
+import Subheading from "../components/Subheading";
 
 const About = () => (
   <Layout>
     <div className="about">
-      <Heading value="about" />
-      <p>
-        I'm a Software Engineer, and a graduate of Nashville Software School. I
-        play the bass and live in East Nashville, TN.
-      </p>
-      <p>
-        Born and raised in Tulsa, OK, I studied Music Composition at Oral
-        Roberts University. My wife, Amber, is just the best. We moved to
-        Nashville in the Fall of 2013 and discover more fun things every day.{" "}
-      </p>
+      <section>
+        <Subheading value="Me" />
+        <p>Hi! I’m a Software Engineer from Nashville, TN.</p>
+        <p>
+          Born and raised in Tulsa, OK, I moved to Nashville with my wife,
+          Amber, in the fall of 2013.
+        </p>
+        <p>
+          I attended Nashville Software School (Cohort 7) from 2014 to 2015.
+        </p>
+      </section>
+      <section>
+        <Subheading value="Work" />
+        <p>
+          In my software career, I have worked mostly for startups. Most of my
+          day-to-day development has been on the client side, primarily using
+          JavaScript, but I have also spent significant time on the backend.
+        </p>
+        <p>
+          I currently work for{" "}
+          <a
+            href="https://www.hellotend.com/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Tend
+          </a>
+          .
+        </p>
 
-      <p>
-        Outside of work, you'll find me:
+        <p>What brings me the most passion in my work is the product.</p>
+        <ul>
+          <li>What are we building? </li>
+          <li>
+            <i>Why</i> are we building it?
+          </li>
+          <li>Who are we serving?</li>
+          <li>How can we make it better?</li>
+        </ul>
+      </section>
+
+      <section>
+        <Subheading value="Else" />
+
+        <p>Outside of work, you'll find me:</p>
         <ul>
           <li>
             riding my{" "}
@@ -33,8 +65,13 @@ const About = () => (
           <li>at Nashville SC games</li>
           <li>at any Mexican restaurant in East Nashville</li>
         </ul>
-      </p>
+      </section>
     </div>
+    <style jsx="true">{`
+      .about section {
+        padding-bottom: 16px;
+      }
+    `}</style>
   </Layout>
 );
 
