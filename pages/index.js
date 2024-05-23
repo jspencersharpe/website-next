@@ -25,12 +25,15 @@ export default () => (
             src="/static/spencer2.jpg"
             className="spencer"
             alt="spencer"
+            height={345}
+            width={345}
           />
         </div>
         <div className="bio">
           <Heading value="Spencer Sharpe" />
           <h3>
-            Product-oriented Software Engineer. <br /> Musician. Sports fan. Multi-modal transit advocate.
+            Product-oriented Software Engineer. <br /> Musician. Sports fan.
+            Multi-modal transit advocate.
           </h3>
         </div>
       </section>
