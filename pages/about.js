@@ -61,7 +61,7 @@ const About = () => (
             </a>
           </li>
           <li>watching NBA basketball (Go Pacers!)</li>
-          <li>tweeting about public transportation</li>
+          <li>posting about public transportation</li>
           <li>at Nashville SC games</li>
           <li>at any Mexican restaurant in East Nashville</li>
         </ul>

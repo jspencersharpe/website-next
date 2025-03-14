@@ -22,6 +22,16 @@ const Code = () => (
         </a>
         .
       </p>
+      <p>
+        Checkout my &nbsp;
+        <a
+          href="https://nashville-cm-newsletter-aggregator.vercel.app/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Nashville Council Member Newsletter Aggregator
+        </a>
+      </p>
       <p>This website was made with Next.js.</p>
       <Technologies />
     </div>
