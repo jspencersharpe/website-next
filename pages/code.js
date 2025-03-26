@@ -23,16 +23,19 @@ const Code = () => (
         .
       </p>
       <p>
-        Checkout my &nbsp;
+        Checkout my&nbsp;
         <a
-          href="https://nashville-cm-newsletter-aggregator.vercel.app/"
+          href="https://www.nashvillenewsletters.org/"
           rel="noopener noreferrer"
           target="_blank"
         >
-          Nashville Council Member Newsletter Aggregator
+          Nashville Newsletter Aggregator
         </a>
+        . This project aggregates newsletters sent out by Nashville elected
+        officials. It was built with Next.js and Vercel (including Vercel Blob).
+        Data is aggregated using RSS feeds and the Gmail API.
       </p>
-      <p>This website was made with Next.js.</p>
+      <p>This website was also made with Next.js.</p>
       <Technologies />
     </div>
   </Layout>
