@@ -30,9 +30,9 @@ const Music = () => {
         <section className="card">
           <div>
             <p>
-              When I was in high school, I performed and toured as a
-              singer/songwriter under my own name. I released the "Hemming the
-              Seams" E.P. in 2009.
+              From 2006 to 2010, I performed and toured as a singer/songwriter
+              under my own name. I released the "Hemming the Seams" E.P. in
+              2009.
             </p>
           </div>
           <div>
