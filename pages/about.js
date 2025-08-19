@@ -25,11 +25,11 @@ const About = () => (
         <p>
           I currently work for{" "}
           <a
-            href="https://www.hellotend.com/"
+            href="https://drinkag1.com"
             rel="noopener noreferrer"
             target="_blank"
           >
-            Tend
+            AG1
           </a>
           .
         </p>
