@@ -1,5 +1,4 @@
 import Layout from "../components/Layout";
-import Technologies from "../components/Technologies";
 import Heading from "../components/Heading";
 
 const Code = () => (
@@ -36,7 +35,6 @@ const Code = () => (
         Data is aggregated using RSS feeds and the Gmail API.
       </p>
       <p>This website was also made with Next.js.</p>
-      <Technologies />
     </div>
   </Layout>
 );
