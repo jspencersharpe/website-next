@@ -23,7 +23,7 @@ const About = () => (
           JavaScript, but I have also spent significant time on the backend.
         </p>
         <p>
-          I currently work for{" "}
+          I am currently the Software Engineering Manager at{" "}
           <a
             href="https://drinkag1.com"
             rel="noopener noreferrer"
@@ -51,15 +51,15 @@ const About = () => (
         <p>Outside of work, you'll find me:</p>
         <ul>
           <li>
-            riding my{" "}
             <a
-              href="https://www.bikeradar.com/advice/buyers-guides/what-is-an-electric-bike/"
+              href="https://www.tonashvillewithlove.com"
               rel="noopener noreferrer"
               target="_blank"
             >
-              E-bike
+              building benches
             </a>
           </li>
+          <li>riding my e-bike</li>
           <li>watching NBA basketball (Go Pacers!)</li>
           <li>
             posting about public transportation and Nashville local politics

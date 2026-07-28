@@ -4,24 +4,16 @@ const Nav = () => (
   <div className="navbar">
     <ul>
       <li>
-        <Link href="/" as="/">
-          <a>Home</a>
-        </Link>
+        <Link href="/">Home</Link>
       </li>
       <li>
-        <Link href="/about" as="/about">
-          <a>About</a>
-        </Link>
+        <Link href="/about">About</Link>
       </li>
       <li>
-        <Link href="/code" as="/code">
-          <a>Code</a>
-        </Link>
+        <Link href="/code">Code</Link>
       </li>
       <li>
-        <Link href="/music" as="/music">
-          <a>Music</a>
-        </Link>
+        <Link href="/music">Music</Link>
       </li>
     </ul>
 
