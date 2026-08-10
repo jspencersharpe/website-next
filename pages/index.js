@@ -2,6 +2,7 @@ import Head from "next/head";
 import { technologies } from "../utils";
 import Layout from "../components/Layout";
 import Heading from "../components/Heading";
+import Link from "next/link";
 
 const data = {
   title: "Spencer Sharpe",
@@ -32,9 +33,12 @@ export default () => (
         <div className="bio">
           <Heading value="Spencer Sharpe" />
           <h3>
-            Product-oriented Software Engineer. <br /> Musician. Sports fan.
-            Multi-modal transit advocate.
+            Software Engineer. Musician. Sports fan. Multi-modal transit
+            advocate.
           </h3>
+          <Link href="https://sharpeforcouncil.com" target="_blank">
+            <h3>I'm running for Metro Council</h3>
+          </Link>
         </div>
       </section>
       <style jsx="true">{`

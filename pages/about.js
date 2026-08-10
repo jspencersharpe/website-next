@@ -1,5 +1,6 @@
 import Layout from "../components/Layout";
 import Subheading from "../components/Subheading";
+import Link from "next/link";
 
 const About = () => (
   <Layout>
@@ -14,6 +15,9 @@ const About = () => (
         <p>
           I attended Nashville Software School (Cohort 7) from 2014 to 2015.
         </p>
+        <Link href="https://sharpeforcouncil.com" target="_blank">
+          I'm running for Metro Council District 5
+        </Link>
       </section>
       <section>
         <Subheading value="Work" />
